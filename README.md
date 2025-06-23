@@ -51,11 +51,5 @@ alembic revision --autogenerate -m "Migration description"
 
 # API Endpoints
 Приложение предоставляет следующие API-эндпоинты:
+![testAPI](https://github.com/user-attachments/assets/efc68a5c-5455-49b4-a08b-86d8e83497d5)
 
-GET /brands : Получить список всех брендов;
-POST /brands : Создать новый бренд;
-GET /countries : Получить список всех стран;
-POST /countries : Создать новую страну;
-GET /brand_countries : Получить связи между брендами и странами;
-POST /brand_countries : Создать новую связь;
-Документацию API можно просмотреть в интерактивном режиме через Swagger UI: http://localhost:8000/docs.
