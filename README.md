@@ -52,10 +52,10 @@ alembic revision --autogenerate -m "Migration description"
 # API Endpoints
 Приложение предоставляет следующие API-эндпоинты:
 
-GET /brands : Получить список всех брендов.
-POST /brands : Создать новый бренд.
-GET /countries : Получить список всех стран.
-POST /countries : Создать новую страну.
-GET /brand_countries : Получить связи между брендами и странами.
-POST /brand_countries : Создать новую связь.
+GET /brands : Получить список всех брендов;
+POST /brands : Создать новый бренд;
+GET /countries : Получить список всех стран;
+POST /countries : Создать новую страну;
+GET /brand_countries : Получить связи между брендами и странами;
+POST /brand_countries : Создать новую связь;
 Документацию API можно просмотреть в интерактивном режиме через Swagger UI: http://localhost:8000/docs.
